@@ -1,0 +1,6 @@
+framework module Pods_Resolver_Tests {
+  umbrella header "Pods-Resolver_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

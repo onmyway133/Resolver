@@ -1,0 +1,14 @@
+PODS:
+  - Resolver (0.1.0)
+
+DEPENDENCIES:
+  - Resolver (from `../`)
+
+EXTERNAL SOURCES:
+  Resolver:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Resolver: 580d39a3dd1618b345b28044a57bb898b5781f78
+
+COCOAPODS: 0.39.0

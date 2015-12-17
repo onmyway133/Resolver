@@ -1,4 +1,5 @@
 # Resolver
+A simple resolver for Swift
 
 [![CI Status](http://img.shields.io/travis/Khoa Pham/Resolver.svg?style=flat)](https://travis-ci.org/Khoa Pham/Resolver)
 [![Version](https://img.shields.io/cocoapods/v/Resolver.svg?style=flat)](http://cocoapods.org/pods/Resolver)
@@ -8,8 +9,6 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
