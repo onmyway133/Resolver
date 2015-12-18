@@ -18,13 +18,13 @@ struct Container {
         registrations[key] = registration
     }
 
-    func resolve<T, F>(tag tag: String? = nil, builder: F -> T) -> T? {
+    func resolve<T, F>(tag tag: String? = nil, builder: F -> T) throws -> T {
         let key = RegistrationKey(tag: tag ?? "", factoryType: F.self)
 
         if let registration = registrations[key] as? Registration<F> {
             return builder(registration.factory)
         } else {
-            return nil
+            throw ResolverError.RegistrationNotFound
         }
     }
 }

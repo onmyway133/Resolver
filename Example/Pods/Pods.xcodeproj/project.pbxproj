@@ -20,6 +20,7 @@
 		D2FC26061C23ADC7002842C0 /* RegistrationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC26021C23AA58002842C0 /* RegistrationType.swift */; };
 		D2FC26071C23ADC9002842C0 /* RegistrationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC26041C23AB0A002842C0 /* RegistrationKey.swift */; };
 		D2FC260B1C23B1D9002842C0 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC26091C23B13E002842C0 /* Container.swift */; };
+		D2FC26101C23BA99002842C0 /* ResolverErrror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC260E1C23BA5C002842C0 /* ResolverErrror.swift */; };
 		D5889805F37E9191EA7075FA39E35770 /* Pods-Resolver_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D896198FD3E291C1CE6200C1C4D797 /* Pods-Resolver_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4282807B0BD441E0E98F6298A380A42 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C9716B6F18C7C30477008460A2E52 /* Resolver.swift */; };
 /* End PBXBuildFile section */
@@ -82,6 +83,7 @@
 		D2FC26021C23AA58002842C0 /* RegistrationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationType.swift; sourceTree = "<group>"; };
 		D2FC26041C23AB0A002842C0 /* RegistrationKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationKey.swift; sourceTree = "<group>"; };
 		D2FC26091C23B13E002842C0 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		D2FC260E1C23BA5C002842C0 /* ResolverErrror.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolverErrror.swift; sourceTree = "<group>"; };
 		DE2237380A69CDA528027F79AFBE7FEC /* Pods-Resolver_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Resolver_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E0BDA5246C0E90B635A2BD5624FD6C9E /* Pods-Resolver_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Resolver_Example.modulemap"; sourceTree = "<group>"; };
 		E9E4DEF9DF701EEE2E9CD918051CA658 /* Pods-Resolver_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Resolver_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				18EB8AB218196B504BD8E00E1CD1D504 /* Registration.swift */,
 				757C9716B6F18C7C30477008460A2E52 /* Resolver.swift */,
 				D2FC26091C23B13E002842C0 /* Container.swift */,
+				D2FC260E1C23BA5C002842C0 /* ResolverErrror.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				4CC6E49E5EB2116C5D17BBF5C9A189DB /* Registration.swift in Sources */,
 				D2FC260B1C23B1D9002842C0 /* Container.swift in Sources */,
 				521494A8441FD4A21528C7EA1944A6B9 /* Resolver-dummy.m in Sources */,
+				D2FC26101C23BA99002842C0 /* ResolverErrror.swift in Sources */,
 				D2FC26061C23ADC7002842C0 /* RegistrationType.swift in Sources */,
 				D2FC26071C23ADC9002842C0 /* RegistrationKey.swift in Sources */,
 				F4282807B0BD441E0E98F6298A380A42 /* Resolver.swift in Sources */,
