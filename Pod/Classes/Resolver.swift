@@ -8,6 +8,28 @@
 
 import Foundation
 
-public protocol Resolver {
-    func resolve<T: AnyObject>() -> T
+public class Resolver {
+    var container = Container()
+
+    init(@noescape configure: Resolver -> Void = { _ in }) {
+        configure(self)
+    }
+}
+
+public extension Resolver {
+    func registerSingleton<T>(singleton: T) {
+        register {
+            singleton
+        }
+    }
+
+    func register<T>(tag tag: String? = nil, factory: () -> T) {
+        container.register(tag: tag, factory: factory)
+    }
+
+    func resolve<T>(tag tag: String? = nil) -> T? {
+        return container.resolve(tag: tag, builder: { (f: () -> T) in
+            f()
+        })
+    }
 }

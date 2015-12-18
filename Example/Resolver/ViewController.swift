@@ -12,7 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let a = { r in
+            r + 1
+        }
+
+        let b = a(20)
+        let c = a.dynamicType
+        print(c)
     }
 
     override func didReceiveMemoryWarning() {
